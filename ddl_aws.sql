@@ -15,8 +15,8 @@ list @fs_stage;
 CREATE OR REPLACE STAGE s3_stage
   URL = 's3://praveeng-s3/'
   CREDENTIALS = (
-    AWS_KEY_ID='AKIATCKAP76BJFRRXVH5',
-    AWS_SECRET_KEY='jfSmwZv3ysh+PQPOmbfII4ZrRhK1qVe0ct2LX9t2'
+    AWS_KEY_ID='XXXXXXXXXXXXXXXXX',
+    AWS_SECRET_KEY='XXXXXXXXXXXCCXXXX'
 );
 
 list @s3_stage;
